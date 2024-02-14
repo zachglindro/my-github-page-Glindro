@@ -1,0 +1,33 @@
+body {
+    background-color: #050505;
+}
+
+h1, h3, p, li {
+    font-family: "Helvetica";
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box {
+    width: 50%;
+    text-align: center;
+}
+
+#greeting {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background: url(https://images.unsplash.com/photo-1488590528505-98d2b5aba04b);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    font-size: 200%;
+    height: 500px;
+    text-shadow: 2px 2px #000000;
+}
