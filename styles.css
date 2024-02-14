@@ -2,7 +2,7 @@ body {
     background-color: #050505;
 }
 
-h1, h3, p, li {
+h1, h3, h4, p, li {
     font-family: "Helvetica";
     color: white;
 }
@@ -18,6 +18,10 @@ h1, h3, p, li {
     text-align: center;
 }
 
+.greeting-item {
+    margin: -5px;
+}
+
 #greeting {
     justify-content: center;
     align-items: center;
@@ -30,4 +34,9 @@ h1, h3, p, li {
     font-size: 200%;
     height: 500px;
     text-shadow: 2px 2px #000000;
+}
+
+#icon {
+    height: 20%;
+    filter: invert(100%);
 }
