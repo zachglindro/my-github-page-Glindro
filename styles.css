@@ -2,9 +2,26 @@ body {
     background-color: #050505;
 }
 
-h1, h3, h4, li {
+h1, h3, h4, p, li {
     font-family: "Noto Sans";
     color: white;
+}
+
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 10px;
+
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+}
+
+img:hover {
+    width: 310px;
+    height: 310px;
 }
 
 .flex-container {
@@ -18,8 +35,6 @@ h1, h3, h4, li {
     text-align: center;
     background-color: coral;
     margin: 1%;
-    background-color: coral;
-    margin: 1%;
 }
 
 .greeting-item {
@@ -30,13 +45,15 @@ h1, h3, h4, li {
     text-align: center;
 }
 
-#previous {
-    text-align: center;
+#projects {
+    align-items: flex-start;
+}
+
+#text-boxes {
+    align-items: flex-start;
 }
 
 #greeting {
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
 
     background: url(https://images.unsplash.com/photo-1488590528505-98d2b5aba04b);
