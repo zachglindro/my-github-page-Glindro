@@ -3,7 +3,7 @@ body {
 }
 
 h1, h3, h4, p, li {
-    font-family: "Helvetica";
+    font-family: "Noto Sans";
     color: white;
 }
 
@@ -16,10 +16,16 @@ h1, h3, h4, p, li {
 .text-box {
     width: 50%;
     text-align: center;
+    background-color: coral;
+    margin: 1%;
 }
 
 .greeting-item {
     margin: -5px;
+}
+
+#previous {
+    text-align: center;
 }
 
 #greeting {
