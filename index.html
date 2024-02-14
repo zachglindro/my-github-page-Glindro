@@ -3,13 +3,40 @@
     <head>
         <title>Zach Glindro</title>
         <style>
+            body {
+                background-color: darkgray;
+            }
+            h1, h3 {
+                font-family: "Helvetica";
+            }
+            .flex-container {
+                display: flex;
+            }
 
+            #greeting {
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                background: url(https://images.unsplash.com/photo-1488590528505-98d2b5aba04b);
+                background-size: 100%;
+                background-repeat: no-repeat;
+
+                font-size: 200%;
+                color: darkgray;
+                height: 500px;
+                text-shadow: 2px 2px #000000;
+            }
         </style>
     </head>
     <body>
-        <div class="flex-container">
+        <div class="flex-container" id="greeting">
             <h1>Zach Glindro</h1>
             <h3>Fluff</h3>
+        </div>
+
+        <div>
+
         </div>
     </body>
 </html>
