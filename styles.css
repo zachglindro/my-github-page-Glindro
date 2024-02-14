@@ -2,13 +2,28 @@ body {
     background-color: #050505;
 }
 
-h1, h3, h4, p, li {
+h1, h3, h4, p, li, a {
     font-family: "Noto Sans";
     color: white;
 }
 
+ul {
+    text-align: left;
+    display: table;
+    margin: 0 auto;
+}
 
-img {
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greeting-item {
+    margin: -5px;
+}
+
+.project-pics {
     width: 300px;
     height: 300px;
     object-fit: cover;
@@ -19,26 +34,22 @@ img {
     border-radius: 10px;
 }
 
-img:hover {
-    width: 310px;
-    height: 310px;
+.contact {
+    font-size: 80%;
+    color: gray;
+    text-decoration: none;
 }
 
-.flex-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.project-pics:hover {
+    width: 310px;
+    height: 310px;
 }
 
 .text-box {
     width: 50%;
     text-align: center;
     background-color: coral;
-    margin: 1%;
-}
-
-.greeting-item {
-    margin: -5px;
+    margin: 0.5%;
 }
 
 #previous {
