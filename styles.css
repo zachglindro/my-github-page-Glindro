@@ -2,7 +2,7 @@ body {
     background-color: #050505;
 }
 
-h1, h3, h4, p, li {
+h1, h3, h4, li {
     font-family: "Noto Sans";
     color: white;
 }
@@ -18,10 +18,16 @@ h1, h3, h4, p, li {
     text-align: center;
     background-color: coral;
     margin: 1%;
+    background-color: coral;
+    margin: 1%;
 }
 
 .greeting-item {
     margin: -5px;
+}
+
+#previous {
+    text-align: center;
 }
 
 #previous {
