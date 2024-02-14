@@ -56,11 +56,7 @@ ul {
     text-align: center;
 }
 
-#projects {
-    align-items: flex-start;
-}
-
-#text-boxes {
+#projects, #text-boxes {
     align-items: flex-start;
 }
 
