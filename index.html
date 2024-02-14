@@ -4,15 +4,25 @@
         <title>Zach Glindro</title>
         <style>
             body {
-                background-color: darkgray;
-            }
-            h1, h3 {
-                font-family: "Helvetica";
-            }
-            .flex-container {
-                display: flex;
+                background-color: #050505;
             }
 
+            h1, h3, p, ul {
+                font-family: "Helvetica";
+                color: white;
+            }
+
+            .flex-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .text-box {
+                width: 50%;
+                text-align: center;
+            }
+            
             #greeting {
                 justify-content: center;
                 align-items: center;
@@ -23,7 +33,6 @@
                 background-repeat: no-repeat;
 
                 font-size: 200%;
-                color: darkgray;
                 height: 500px;
                 text-shadow: 2px 2px #000000;
             }
@@ -35,8 +44,34 @@
             <h3>Fluff</h3>
         </div>
 
-        <div>
+        <h1>Previous Projects</h1>
+        <div class="flex-container">
+            <a href="https://github.com/zachglindro/StarbaseSentinel2">test proj 1</a>
+            <a href="https://github.com/zachglindro/naive_mlb_projections">test proj 2</a>
+        </div>
 
+        <div class="flex-container" id="text-boxes">
+            <div class="text-box" id="skills">
+                <h3>Skills</h3>
+                <ul>
+                    <li>skill 1</li>
+                    <li>skill 2</li>
+                    <li>skill 3</li>
+                </ul>
+            </div>
+            <div class="text-box" id="autobiography">
+                <h3>Autobiography</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Nunc id lectus ac erat luctus vulputate.
+                    Sed a sollicitudin nisi.
+                    Maecenas tellus eros, mattis quis interdum tempus, ultricies et nisl.
+                    Vestibulum nec elementum urna. Aliquam eu rutrum ipsum.
+                    Phasellus et lectus tincidunt, fringilla velit vel, finibus metus.
+                    In urna felis, rhoncus et arcu sollicitudin, posuere ornare elit.
+                    Etiam at mi sed diam viverra iaculis. 
+                </p>
+            </div>
         </div>
     </body>
 </html>
